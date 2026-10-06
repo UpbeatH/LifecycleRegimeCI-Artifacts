@@ -1,0 +1,4 @@
+mechanism,raw_comparison,normalized_comparison,scope
+FLINK-25524,equal,equal,notification_capture
+FLINK-28843,equal,equal,restore_capture
+FLINK-38483,unequal,equal,topology_capture
