@@ -1,0 +1,5 @@
+case,fresh,configuration_only,lifecycle_history,manual_reference
+FLINK-25429,X,OK,OK,OK
+FLINK-25524,X,X,OK,OK
+FLINK-28843,X,X,OK,OK
+FLINK-38483,X,X,OK,OK
