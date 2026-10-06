@@ -1,0 +1,271 @@
+{
+  "schema": "lifecycle-regime-ci.compact-integrity.v1",
+  "trust_boundary": "Trusted repository revision required; this inventory is not a digital signature. Excludes itself to avoid circular hashing.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5916,
+      "sha256": "f0a561c1faa2e14d882f8024cdbcd06d01d17aeefbaa11333dbdfd1f5d0ce974"
+    },
+    {
+      "path": "artifacts/README.md",
+      "bytes": 652,
+      "sha256": "fe581305f527c0bbb8f4d5f115bab4bdbb9ca5360a656c0811d84becf567a97f"
+    },
+    {
+      "path": "artifacts/manifests/environments.json",
+      "bytes": 3041,
+      "sha256": "06f2f4e22b9181cb8131b4dda1370b2ee47aaade22c960848cf09388e5391ef1"
+    },
+    {
+      "path": "artifacts/manifests/provenance.json",
+      "bytes": 49909,
+      "sha256": "bb0aca2582947ec71ccecb3098a15b372eb0fc531bec47cf3b278fa46d17dbfd"
+    },
+    {
+      "path": "artifacts/manifests/revision_manifest.md",
+      "bytes": 2052,
+      "sha256": "581e3df74087a0e6d14d80242991c18731d05976c9bbfeb54f960227bd8f62f5"
+    },
+    {
+      "path": "artifacts/manifests/revisions.json",
+      "bytes": 1183,
+      "sha256": "8bfb86a1b8a8eb437b9a9a45b0faad4f8ebd74c0f32c29bd2e4e88f354698340"
+    },
+    {
+      "path": "artifacts/protocols/FLINK-25429-CONTROL.md",
+      "bytes": 1305,
+      "sha256": "9256e25ada242752c34e0d399d03c9bdc0afe232b629fc28c682678e38114f5f"
+    },
+    {
+      "path": "artifacts/protocols/FLINK-25524-MATRIX-PREREGISTRATION.md",
+      "bytes": 2472,
+      "sha256": "65e455a08373ff24d9902a2c37c0009fd380b27c7bd92dbde68966e94e3b562f"
+    },
+    {
+      "path": "artifacts/protocols/FLINK-28843-MATRIX-PREREGISTRATION.md",
+      "bytes": 2183,
+      "sha256": "4de4f0d8ff543aac8b2b211c248b1830d61e87421c084f480a83eba499f8ba3d"
+    },
+    {
+      "path": "artifacts/protocols/FLINK-38483-MATRIX-PREREGISTRATION.md",
+      "bytes": 2266,
+      "sha256": "c0f05e123f710736ff77a9d537258fb2569a551b1b1e2fb8f018f1f5d3ca034a"
+    },
+    {
+      "path": "artifacts/protocols/LATER-RESTORE-PROTOCOL.md",
+      "bytes": 10133,
+      "sha256": "3f6be145f6cd4d440c2383eb588a76420c83a109024aca2716fd4ce41342bb4a"
+    },
+    {
+      "path": "artifacts/protocols/ORIGINAL-CASE-SELECTION.md",
+      "bytes": 3357,
+      "sha256": "6c6d7bfd143d9c744c049cfc69df76216a67c16310ca7cc9a216aff7360dc924"
+    },
+    {
+      "path": "artifacts/protocols/README.md",
+      "bytes": 1430,
+      "sha256": "723c9cc43ff50d4b48f2176cd566e832837b8d4b37225ad1f7e30fcd5a8a0d8e"
+    },
+    {
+      "path": "artifacts/receipts/README.md",
+      "bytes": 2311,
+      "sha256": "1d9745722dce3b5374bb0bd9b6418edd51a763eb3485e2d4a7758d0daa337a24"
+    },
+    {
+      "path": "artifacts/receipts/T10-captured.json",
+      "bytes": 380,
+      "sha256": "003df39e6a22790b46f44d2b9f4bf7387bbd5886644093676279104782b0bfcf"
+    },
+    {
+      "path": "artifacts/receipts/T10-events.jsonl",
+      "bytes": 472,
+      "sha256": "53416d2358f9118f4772d5443608cdc1bd11b1ce8e9cd9c6d54ba7b04d79e8c7"
+    },
+    {
+      "path": "artifacts/receipts/T10-reference.json",
+      "bytes": 380,
+      "sha256": "758ead4a89496bdfce6265fc486f92ae9dca48177490fc84ad2da4bad5d67c12"
+    },
+    {
+      "path": "artifacts/receipts/T7-captured.json",
+      "bytes": 445,
+      "sha256": "c5c1364ecf39121bd854f23fb338fd36a5631880ebe464bbd172cff362c153a1"
+    },
+    {
+      "path": "artifacts/receipts/T7-events.jsonl",
+      "bytes": 531,
+      "sha256": "a46414323f9cb2115628feb40eda6fd9c0466464775a64ae7e13af26c7f55077"
+    },
+    {
+      "path": "artifacts/receipts/T7-reference.json",
+      "bytes": 442,
+      "sha256": "3c6f6d2dcd660df830dbb1764661a20bf0b86105446cf7951f07d810526a2ec0"
+    },
+    {
+      "path": "artifacts/receipts/T9-captured.json",
+      "bytes": 299,
+      "sha256": "d0ee86e7f0ff0ad223bd93863b3bb38c17eb6a399d893c2de5f0d92fcc783754"
+    },
+    {
+      "path": "artifacts/receipts/T9-events.jsonl",
+      "bytes": 397,
+      "sha256": "198dbe86573a138a2f2d7dea763c3085a2e95f99210b0d75cea69b898cc3c745"
+    },
+    {
+      "path": "artifacts/receipts/T9-reference.json",
+      "bytes": 299,
+      "sha256": "c46893c18e96db66a58150f87c79e2fb14763c38f83db2e005e16914dc02a34f"
+    },
+    {
+      "path": "artifacts/receipts/canonicalization-contract.json",
+      "bytes": 1821,
+      "sha256": "426cc4ca53374f147ba9b25e5d4291b01d06ffdd160670abe302c4c4da9a1792"
+    },
+    {
+      "path": "artifacts/results/README.md",
+      "bytes": 2139,
+      "sha256": "20028ca382b8902f88bbb8e4c6578af594f37b9516a79aeaf146361c8f7bfb63"
+    },
+    {
+      "path": "artifacts/results/capture/T10-result.json",
+      "bytes": 1925,
+      "sha256": "f8fa10f84d4dfc5fccd714714367e4e03231d40daf9428bdcdde3463a737a547"
+    },
+    {
+      "path": "artifacts/results/capture/T7-result.json",
+      "bytes": 1583,
+      "sha256": "6cad347c4d05eb04da2e1a096fe19c6cd52d1d98cdd7ff4f516e93f184bc1b31"
+    },
+    {
+      "path": "artifacts/results/capture/T9-result.json",
+      "bytes": 1946,
+      "sha256": "31cf8dab0a5bb7b7559c9b6e16ab047bf5a63c8e526d5ea7a3ff0d779b3e8b65"
+    },
+    {
+      "path": "artifacts/results/fidelity_summary.csv",
+      "bytes": 181,
+      "sha256": "14139eb09abf6e6252fad6a21dce94bf114eff239058637a915e33b6061ad354"
+    },
+    {
+      "path": "artifacts/results/later-restore/README.md",
+      "bytes": 2412,
+      "sha256": "0d4d98b0c268879506795a333bc4e17e5370ba3bdf629cccbf24f92b2c22d125"
+    },
+    {
+      "path": "artifacts/results/later-restore/replicated-null/decision.json",
+      "bytes": 5054,
+      "sha256": "1b6962e6fcc917b5dc94cc0ef9a321f1230f193cd41f7bd650869ce261497374"
+    },
+    {
+      "path": "artifacts/results/later-restore/replicated-null/flink-28843-anchor-baselines.csv",
+      "bytes": 3737,
+      "sha256": "8befd157073910e3ea44d7729580c4f078c8aa2e32c4cc354c91cdf522ebee4e"
+    },
+    {
+      "path": "artifacts/results/later-restore/replication-technical-invalid/decision.json",
+      "bytes": 5047,
+      "sha256": "34c15c520ae579ffdadf43f0b0854fc69a0f372cb6e2e9ea54297b1267c3c3cf"
+    },
+    {
+      "path": "artifacts/results/later-restore/replication-technical-invalid/flink-28843-anchor-baselines.csv",
+      "bytes": 3737,
+      "sha256": "cfe82b57f090ddc0395a95b7bc657f4b8e20f1bcb013973711ecd915d7ef6837"
+    },
+    {
+      "path": "artifacts/results/later-restore/stabilized-null/decision.json",
+      "bytes": 5052,
+      "sha256": "c68c515cece5d7e34d7123f7d3d04081b28f2d8979a0a519edbe13f821963455"
+    },
+    {
+      "path": "artifacts/results/later-restore/stabilized-null/flink-28843-anchor-baselines.csv",
+      "bytes": 3621,
+      "sha256": "50efe3662cddde0d9c2f03c8fd6c469a4917f09d7c10e70ddbf2f0886e37d0cf"
+    },
+    {
+      "path": "artifacts/results/lifecycle_relationships.csv",
+      "bytes": 241,
+      "sha256": "f38f46c62fa1a916e338d590a1ac6853dc1036fd5eb0b8159b9c679f898c6395"
+    },
+    {
+      "path": "artifacts/results/live-capture-aggregate.json",
+      "bytes": 2186,
+      "sha256": "d79611964689ed8d4129ff79e26f94232c57729a07183ed14488404e01b70220"
+    },
+    {
+      "path": "artifacts/results/live-capture-summary.csv",
+      "bytes": 1016,
+      "sha256": "00880cfabc2a6b16818e6240fdf6af8c0ec0639c5f915673b61db287cf5a3526"
+    },
+    {
+      "path": "artifacts/results/original/FLINK-25429-RESULT.md",
+      "bytes": 1710,
+      "sha256": "78752900485b7980bad7a0f77d2f3d87e8b675d3bd48ada72444fd9ffc5366f9"
+    },
+    {
+      "path": "artifacts/results/original/flink-25429-decision.json",
+      "bytes": 258,
+      "sha256": "2d8846ffb0128b9aaae5954057d485dc173cd0eeba77563c88f0e72e89f793b8"
+    },
+    {
+      "path": "artifacts/results/original/flink-25429-runs.csv",
+      "bytes": 1561,
+      "sha256": "0414ce377a67c0bd8f1d396b4bfcd4b0208c99c26d89057740c37cb929ea11e6"
+    },
+    {
+      "path": "artifacts/results/original/flink-25524-matrix-decision.json",
+      "bytes": 601,
+      "sha256": "f0bf84d53c917be1b028250db11f864d5a5ff2956d9c6b11bcaf1283d3229d49"
+    },
+    {
+      "path": "artifacts/results/original/flink-25524-matrix.csv",
+      "bytes": 1952,
+      "sha256": "ad37e19ea613115baed490d82ce5083f73ccf4513373c15cae6ee4df4d907da7"
+    },
+    {
+      "path": "artifacts/results/original/flink-28843-matrix-decision.json",
+      "bytes": 294,
+      "sha256": "0c01e903e6d08dbcfd520d3547dc2a80522483d92324f25f91075e8f5f687b96"
+    },
+    {
+      "path": "artifacts/results/original/flink-28843-matrix.csv",
+      "bytes": 2009,
+      "sha256": "68efbe5adcbef1696d1f4f6937c30a0a100c5399bcd7b18081f1a3ac973613a6"
+    },
+    {
+      "path": "artifacts/results/original/flink-38483-matrix-decision.json",
+      "bytes": 294,
+      "sha256": "86da6573a859db44c574f4af769e3bb62332dbf89cd9bddef0b02798a553dfe1"
+    },
+    {
+      "path": "artifacts/results/original/flink-38483-matrix.csv",
+      "bytes": 2057,
+      "sha256": "4e276f5cbae91ef496aa8a02e6a169783023c69db20d39c4be421ea81fb389d4"
+    },
+    {
+      "path": "artifacts/results/reproduction_matrix.csv",
+      "bytes": 154,
+      "sha256": "7a379424c5234ac339915fe0d9839067f37a042a1bd2513f9cc96216cf2e9965"
+    },
+    {
+      "path": "artifacts/results/t3-policy-detection.csv",
+      "bytes": 517,
+      "sha256": "1043709c599f25383bcc1e1132fad2b3b1b550cdd4705e121de2270d7b2c0b4a"
+    },
+    {
+      "path": "artifacts/results/t3-summary.json",
+      "bytes": 2129,
+      "sha256": "2fa6fff7711676ab2dbe52f672551f08ec733b729c01226b95578704ad8407aa"
+    },
+    {
+      "path": "artifacts/scripts/test_validate_artifacts.py",
+      "bytes": 8790,
+      "sha256": "07a52e61440882397d934b4ed0af0db14e95e8f953b618fb94617552427b6736"
+    },
+    {
+      "path": "artifacts/scripts/validate_artifacts.py",
+      "bytes": 22965,
+      "sha256": "30d6107cc332bfecf05ebac7eda5a964a6c2f0f07a3f519bde0b0c8251d0739b"
+    }
+  ]
+}

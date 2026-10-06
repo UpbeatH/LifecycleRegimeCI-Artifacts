@@ -1,0 +1,12 @@
+{
+  "effective_configuration": {
+    "aligned_checkpoint_timeout": "0s",
+    "network_memory_segment_size": "1kb",
+    "restart_strategy": "disable",
+    "unaligned_checkpoints": true
+  },
+  "lineage_predecessor": "mixed-nonempty-and-empty-hash-exchanges",
+  "persisted_state_identity": "externalized-unaligned-checkpoint-with-inflight-buffers",
+  "realized_regime": "unaligned-checkpoint-rescale",
+  "target_phase": "restore-from-checkpoint"
+}

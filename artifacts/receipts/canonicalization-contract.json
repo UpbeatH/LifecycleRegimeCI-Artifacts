@@ -1,0 +1,47 @@
+{
+  "schema": "dataanalyticstune.lrci.configuration-canonicalization.v1",
+  "profiles": [
+    {
+      "profile_id": "apache-flink-cc55c56a",
+      "engine": "Apache Flink",
+      "source_revision": "cc55c56ace4401c2a4023153d9e17001ab5fcc85",
+      "source_evidence_path": "experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/restart-strategy-alias-source.txt",
+      "source_evidence_sha256": "50e9ad1a8c81da27e2f352061532c35b0ed50b6f35504b3e273937f2c1933467",
+      "unknown_value_policy": "error",
+      "rules": [
+        {
+          "rule_id": "restart-strategy-type-no-restart",
+          "path": [
+            "effective_configuration",
+            "restart_strategy"
+          ],
+          "canonical_value": "disable",
+          "accepted_values": [
+            "disable",
+            "none",
+            "off"
+          ],
+          "source_declaration": "NO_RESTART_STRATEGY(\"disable\", Sets.newHashSet(\"none\", \"off\"))"
+        }
+      ]
+    },
+    {
+      "profile_id": "apache-flink-d0927dd4",
+      "engine": "Apache Flink",
+      "source_revision": "d0927dd41e2f0441e4e5825ff423dd0e903713f3",
+      "source_evidence_path": "experiments/DAT-LRCI-T9-materialization-live-capture/source-identity.txt",
+      "source_evidence_sha256": "358695be36e98c49e9ca3426511d6e24d9bf8b4e1ccbb59938d733aba5e60d8a",
+      "unknown_value_policy": "error",
+      "rules": []
+    },
+    {
+      "profile_id": "apache-flink-7f708d0b",
+      "engine": "Apache Flink",
+      "source_revision": "7f708d0ba42f727b3f8c3d77cef2108206cad2de",
+      "source_evidence_path": "experiments/DAT-LRCI-T10-generic-restore-trace/source-identity.txt",
+      "source_evidence_sha256": "53aee26d8335b762c99d8f0c445de034f1aeea3013fa1b8b02649c4ffacff98e",
+      "unknown_value_policy": "error",
+      "rules": []
+    }
+  ]
+}

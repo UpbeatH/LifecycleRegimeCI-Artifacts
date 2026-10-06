@@ -1,0 +1,50 @@
+{
+  "claim_boundary": "Three Flink mechanisms with one selected child live capture each; not three independent systems, production integrations, or incident samples.",
+  "decision": "LIVE_CAPTURE_GENERIC_TRACE_COVERAGE_COMPLETE",
+  "generic_trace_mechanisms": 3,
+  "live_runs": 4,
+  "normalized_fidelity_mechanisms": 3,
+  "raw_value_fidelity_mechanisms": 2,
+  "schema": "dataanalyticstune.lrci.live-capture-paper-evidence.v1",
+  "selected_gates": [
+    "T9",
+    "T10",
+    "T7"
+  ],
+  "selected_mechanisms": 3,
+  "source_artifacts": [
+    {
+      "path": "experiments/DAT-LRCI-T6-live-capture/evidence/g128-live-v1/result.json",
+      "sha256": "1a68bd2877aee911b18cc00a9a870fde5413a67fa3fff8439ac3de6504ba5522"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T6-live-capture/evidence/g128-live-v1/live-capture.txt",
+      "sha256": "e49bfb1fcaa428f158bbfe8a8883ec8996c98ecdd6bfe5d5b2e35cfdcc1e5739"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/result.json",
+      "sha256": "ccc5649ea80ba37d50ba78a9c4108236321903759a5b80c8cb1710c953c8798c"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/live-unaligned-capture.txt",
+      "sha256": "a2c76f5844ca2b5ae79f51ce83ccb914304ab12a511974cc588c7d26abe830dc"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T9-materialization-live-capture/evidence/g128-live-v1/result.json",
+      "sha256": "fef177ff31633a5e413ab205507e52722c1401445f2b3009c4af8c382cd017c1"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T9-materialization-live-capture/evidence/g128-live-v1/live-materialization-capture.txt",
+      "sha256": "f075fc0e606127b12cc12a955d757fec15ce152dc7969fd00753284ab0104662"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T10-generic-restore-trace/evidence/g128-live-v1/result.json",
+      "sha256": "a61eb80b2acf9e203a78e7c6117ee26ab70269abd597fef53d5b05a07aa61463"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T10-generic-restore-trace/evidence/g128-live-v1/generic-restore-trace.txt",
+      "sha256": "874aa5466ffdffefbdb741c92f169f8e17a40852601971aa0ffb0b5d926a8035"
+    }
+  ],
+  "t6_t10_event_stream_sha256_equal": true
+}

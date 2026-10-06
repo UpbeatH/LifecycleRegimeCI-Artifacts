@@ -1,0 +1,62 @@
+{
+  "canonicalization_profile": "apache-flink-7f708d0b",
+  "captured_receipt_sha256": "003df39e6a22790b46f44d2b9f4bf7387bbd5886644093676279104782b0bfcf",
+  "captured_resolutions": [],
+  "claim_boundary": "One child incremental RocksDB-to-changelog checkpoint/restore chain; not a parent comparison, production integration, or cross-engine result.",
+  "decision": "T10_GENERIC_RESTORE_TRACE_GO",
+  "expected_receipt_sha256": "758ead4a89496bdfce6265fc486f92ae9dca48177490fc84ad2da4bad5d67c12",
+  "expected_resolutions": [],
+  "java_trace_timing": {
+    "acquisition_ns": {
+      "maximum": 1399,
+      "median": 239,
+      "minimum": 231,
+      "p05": 231,
+      "p95": 670
+    },
+    "batches": 31,
+    "iterations_per_batch": 20000,
+    "schema": "dataanalyticstune.lrci.t10-java.v1",
+    "serialization_ns": {
+      "maximum": 1707,
+      "median": 638,
+      "minimum": 629,
+      "p05": 631,
+      "p95": 1400
+    }
+  },
+  "live_event_bytes": 472,
+  "live_event_count": 4,
+  "live_event_sha256": "53416d2358f9118f4772d5443608cdc1bd11b1ce8e9cd9c6d54ba7b04d79e8c7",
+  "normalized_receipt_fidelity": true,
+  "platform": "Linux-5.8.0-63-generic-x86_64-with-glibc2.29",
+  "python": "3.8.10",
+  "python_canonicalization": {
+    "batches": 31,
+    "iterations_per_batch": 20000,
+    "maximum_ns": 8146.8662,
+    "median_ns": 8033.9427,
+    "minimum_ns": 7797.86875,
+    "p05_ns": 7934.00925,
+    "p95_ns": 8130.0987
+  },
+  "python_parse_and_fold": {
+    "batches": 31,
+    "iterations_per_batch": 20000,
+    "maximum_ns": 13327.4784,
+    "median_ns": 12952.18755,
+    "minimum_ns": 12772.5737,
+    "p05_ns": 12848.08815,
+    "p95_ns": 13246.91755
+  },
+  "raw_receipt_fidelity": true,
+  "schema": "dataanalyticstune.lrci.t10-generic-restore-trace.v1",
+  "source_revision": "7f708d0ba42f727b3f8c3d77cef2108206cad2de",
+  "test_report": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 2,
+    "tests": 3,
+    "valid": true
+  }
+}

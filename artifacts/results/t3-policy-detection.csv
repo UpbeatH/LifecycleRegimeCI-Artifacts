@@ -1,0 +1,5 @@
+incident,lifecycle_family,physical_launches,logical_policy_cells,fresh-only,configuration-only,history-aware,incident-oracle,selected_history_child_false_positive,retained_decision
+FLINK-25429,stream ownership,12,24,0,1,1,1,0,T3_FLINK_25429_VALID_CONFIG_BASELINE_DETECTS
+FLINK-25524,notification lineage,18,24,0,0,1,1,0,T3_FLINK_25524_HISTORY_ADVANTAGE
+FLINK-28843,checkpoint-path lineage,18,24,0,0,1,1,0,T3_FLINK_28843_HISTORY_ADVANTAGE
+FLINK-38483,unaligned rescale,18,24,0,0,1,1,0,T3_FLINK_38483_HISTORY_ADVANTAGE

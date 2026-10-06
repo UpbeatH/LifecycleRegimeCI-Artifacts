@@ -1,0 +1,62 @@
+{
+  "canonicalization_profile": "apache-flink-d0927dd4",
+  "captured_receipt_sha256": "d0ee86e7f0ff0ad223bd93863b3bb38c17eb6a399d893c2de5f0d92fcc783754",
+  "captured_resolutions": [],
+  "claim_boundary": "One child ChangelogKeyedStateBackend materialization/checkpoint-completion lifecycle; not a parent comparison, production integration, or cross-engine result.",
+  "decision": "T9_MATERIALIZATION_LIVE_CAPTURE_GO",
+  "expected_receipt_sha256": "c46893c18e96db66a58150f87c79e2fb14763c38f83db2e005e16914dc02a34f",
+  "expected_resolutions": [],
+  "java_trace_timing": {
+    "acquisition_ns": {
+      "maximum": 144,
+      "median": 75,
+      "minimum": 74,
+      "p05": 74,
+      "p95": 111
+    },
+    "batches": 31,
+    "iterations_per_batch": 20000,
+    "schema": "dataanalyticstune.lrci.t9-java.v1",
+    "serialization_ns": {
+      "maximum": 992,
+      "median": 431,
+      "minimum": 429,
+      "p05": 429,
+      "p95": 894
+    }
+  },
+  "live_event_bytes": 397,
+  "live_event_count": 4,
+  "live_event_sha256": "198dbe86573a138a2f2d7dea763c3085a2e95f99210b0d75cea69b898cc3c745",
+  "normalized_receipt_fidelity": true,
+  "platform": "Linux-5.8.0-63-generic-x86_64-with-glibc2.29",
+  "python": "3.8.10",
+  "python_canonicalization": {
+    "batches": 31,
+    "iterations_per_batch": 20000,
+    "maximum_ns": 6893.8518,
+    "median_ns": 6856.4996,
+    "minimum_ns": 6659.4246,
+    "p05_ns": 6691.0831,
+    "p95_ns": 6887.2915
+  },
+  "python_parse_and_fold": {
+    "batches": 31,
+    "iterations_per_batch": 20000,
+    "maximum_ns": 11784.79465,
+    "median_ns": 11634.95015,
+    "minimum_ns": 11486.1877,
+    "p05_ns": 11513.77585,
+    "p95_ns": 11770.36765
+  },
+  "raw_receipt_fidelity": true,
+  "schema": "dataanalyticstune.lrci.t9-materialization-live-capture.v1",
+  "source_revision": "d0927dd41e2f0441e4e5825ff423dd0e903713f3",
+  "test_report": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 1,
+    "valid": true
+  }
+}

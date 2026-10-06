@@ -1,0 +1,10 @@
+{
+  "history_detection": 1,
+  "child_false_positive": 0,
+  "logical_policy_cells": 24,
+  "physical_launches": 12,
+  "decision": "T3_FLINK_25429_VALID_CONFIG_BASELINE_DETECTS",
+  "oracle_detection": 1,
+  "configuration_detection": 1,
+  "fresh_detection": 0
+}

@@ -1,0 +1,49 @@
+{
+  "all_rows_valid_and_consistent": true,
+  "detection_counts": {
+    "configuration-only": 1,
+    "fresh-only": 0,
+    "history-aware": 4,
+    "incident-oracle": 4
+  },
+  "independent_incidents": 4,
+  "inference_boundary": "Four prospectively fixed Flink development incidents are the independent units; public defect outcomes were known, and repetitions are consistency checks rather than additional samples.",
+  "logical_policy_cells": 96,
+  "physical_launches": 66,
+  "schema": "dataanalyticstune.lrci.t3-paper-evidence.v1",
+  "selected_history_child_false_positives": 0,
+  "source_files": [
+    {
+      "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25429-runs.csv",
+      "sha256": "0414ce377a67c0bd8f1d396b4bfcd4b0208c99c26d89057740c37cb929ea11e6"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25429-decision.json",
+      "sha256": "2d8846ffb0128b9aaae5954057d485dc173cd0eeba77563c88f0e72e89f793b8"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25524-matrix.csv",
+      "sha256": "ad37e19ea613115baed490d82ce5083f73ccf4513373c15cae6ee4df4d907da7"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25524-matrix-decision.json",
+      "sha256": "f0bf84d53c917be1b028250db11f864d5a5ff2956d9c6b11bcaf1283d3229d49"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-28843-matrix.csv",
+      "sha256": "68efbe5adcbef1696d1f4f6937c30a0a100c5399bcd7b18081f1a3ac973613a6"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-28843-matrix-decision.json",
+      "sha256": "0c01e903e6d08dbcfd520d3547dc2a80522483d92324f25f91075e8f5f687b96"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-38483-matrix.csv",
+      "sha256": "4e276f5cbae91ef496aa8a02e6a169783023c69db20d39c4be421ea81fb389d4"
+    },
+    {
+      "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-38483-matrix-decision.json",
+      "sha256": "86da6573a859db44c574f4af769e3bb62332dbf89cd9bddef0b02798a553dfe1"
+    }
+  ]
+}

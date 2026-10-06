@@ -1,0 +1,13 @@
+{
+  "child_cells_pass": true,
+  "consistent": true,
+  "decision": "T3_FLINK_38483_HISTORY_ADVANTAGE",
+  "incident_detection": {
+    "configuration-only": false,
+    "fresh-only": false,
+    "history-aware": true,
+    "incident-oracle": true
+  },
+  "logical_cells": 24,
+  "physical_cells": 18
+}

@@ -1,0 +1,916 @@
+{
+  "schema": "lifecycle-regime-ci.compact-provenance.v1",
+  "source_snapshot_commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+  "scientific_manuscript_baseline": "03e715348b5dbe3a0f3656c5bfb95d0f7735cf51",
+  "existing_public_package_baseline": "e669b323a956e92908f7cbae18876501f1389a15",
+  "boundary": "Bounded compact exports; no raw native data or present native-availability assertion. Source repository paths identify historical records only. Original source files are immutable.",
+  "artifacts": [
+    {
+      "artifact_path": "artifacts/manifests/environments.json",
+      "transformation": "bounded environment projection; private hosts, users, addresses and capacity details omitted; unestablished exact versions are null",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/MANIFEST.md",
+          "git_blob_sha1": "f049f3d1279561df0a2fb2a6dc168295482def89",
+          "sha256": "aeae588c0347763d2fee94fc900a7b1e2a928f538971f14ea09cb4b835ed562f",
+          "bytes": 13120,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/MANIFEST.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-38483-V5-RESULT.md",
+          "git_blob_sha1": "4801847ecba270e4e4740bda0d48e77613137300",
+          "sha256": "be9f52217e8562c303c5f3e3bc237263ba50a03940f50f57f7cf92d3425a70ef",
+          "bytes": 4084,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-38483-V5-RESULT.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/RESULT.md",
+          "git_blob_sha1": "fddd84261af602ca75b271305b3b8198dc8b2671",
+          "sha256": "da7444a3791145217a166c3cb1a7e487d0b41e0a99aefa43e16188043605173f",
+          "bytes": 8065,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/RESULT.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T7-cross-mechanism-capture/MANIFEST.md",
+          "git_blob_sha1": "1f01e43fa0fbd15c3dd51fb10979d93fe96700f4",
+          "sha256": "d9dee30d848f801273bcc1b7c0ce1aab46a110fb3ac18aef857fa5d5c2c00ad4",
+          "bytes": 1885,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T7-cross-mechanism-capture/MANIFEST.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T9-materialization-live-capture/MANIFEST.md",
+          "git_blob_sha1": "24e0fc179bc3d73e3a911062d75fb1d7ba40e0bb",
+          "sha256": "b83393cf333026f9cb843b7fd6b522478f612036e06fb15b1756f0fa4866b155",
+          "bytes": 1509,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T9-materialization-live-capture/MANIFEST.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T10-generic-restore-trace/MANIFEST.md",
+          "git_blob_sha1": "811857babc25c889e28560ee605ef742afabb372",
+          "sha256": "adc6a5b935e38f6b02ce52dad5148d97a9e263cfe0bce3eafe3271e67b70d592",
+          "bytes": 1522,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T10-generic-restore-trace/MANIFEST.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/manifests/revision_manifest.md",
+      "transformation": "reviewer-facing synthesis; no source experiment or result altered",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/MANIFEST.md",
+          "git_blob_sha1": "f049f3d1279561df0a2fb2a6dc168295482def89",
+          "sha256": "aeae588c0347763d2fee94fc900a7b1e2a928f538971f14ea09cb4b835ed562f",
+          "bytes": 13120,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/MANIFEST.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/RESULT.md",
+          "git_blob_sha1": "fddd84261af602ca75b271305b3b8198dc8b2671",
+          "sha256": "da7444a3791145217a166c3cb1a7e487d0b41e0a99aefa43e16188043605173f",
+          "bytes": 8065,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/RESULT.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/manifests/revisions.json",
+      "transformation": "bounded revision projection; omit native storage, archives and private execution identity",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/MANIFEST.md",
+          "git_blob_sha1": "f049f3d1279561df0a2fb2a6dc168295482def89",
+          "sha256": "aeae588c0347763d2fee94fc900a7b1e2a928f538971f14ea09cb4b835ed562f",
+          "bytes": 13120,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/MANIFEST.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/PREREGISTRATION.md",
+          "git_blob_sha1": "6b9436a0307ca8ade23c54a9ac5696236f6220fa",
+          "sha256": "4db6b108ea1f2ea0c814a7a7037a1707c78b4e24545a271c1d3b8b70cb60ea79",
+          "bytes": 10815,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/PREREGISTRATION.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/protocols/FLINK-25429-CONTROL.md",
+      "transformation": "reviewer-facing synthesis; no source experiment or result altered",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/SCREEN.md",
+          "git_blob_sha1": "a21bbe52029d69b19b7292074180bfeca92725be",
+          "sha256": "6c6d7bfd143d9c744c049cfc69df76216a67c16310ca7cc9a216aff7360dc924",
+          "bytes": 3357,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/SCREEN.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25429-RESULT.md",
+          "git_blob_sha1": "d0f962901423c50538fa93648f52331c8ee199d8",
+          "sha256": "78752900485b7980bad7a0f77d2f3d87e8b675d3bd48ada72444fd9ffc5366f9",
+          "bytes": 1710,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25429-RESULT.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/Flink25429AdmissionTest.java",
+          "git_blob_sha1": "4fc84eae4958f9c3f3aa9de48e3a568336e4dd8f",
+          "sha256": "91f3a277ac2adea6b0528a1df61fb2740eec93fd1727cdb211d26f5e860cdf80",
+          "bytes": 6142,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/Flink25429AdmissionTest.java"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/protocols/FLINK-25524-MATRIX-PREREGISTRATION.md",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25524-MATRIX-PREREGISTRATION.md",
+          "git_blob_sha1": "9fac693e33fa115f24c97f77e43a9614b6246a16",
+          "sha256": "65e455a08373ff24d9902a2c37c0009fd380b27c7bd92dbde68966e94e3b562f",
+          "bytes": 2472,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25524-MATRIX-PREREGISTRATION.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/protocols/FLINK-28843-MATRIX-PREREGISTRATION.md",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-28843-MATRIX-PREREGISTRATION.md",
+          "git_blob_sha1": "bbf5480b502e0443970419d33f4d0e73a4198a08",
+          "sha256": "4de4f0d8ff543aac8b2b211c248b1830d61e87421c084f480a83eba499f8ba3d",
+          "bytes": 2183,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-28843-MATRIX-PREREGISTRATION.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/protocols/FLINK-38483-MATRIX-PREREGISTRATION.md",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-38483-MATRIX-PREREGISTRATION.md",
+          "git_blob_sha1": "aac82ab22275904ee5ff843910f7f79d98fbf2a7",
+          "sha256": "c0f05e123f710736ff77a9d537258fb2569a551b1b1e2fb8f018f1f5d3ca034a",
+          "bytes": 2266,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-38483-MATRIX-PREREGISTRATION.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/protocols/LATER-RESTORE-PROTOCOL.md",
+      "transformation": "literal source lines 1-193 with public explanatory preface; omit subsequent operational section",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/PREREGISTRATION.md",
+          "git_blob_sha1": "6b9436a0307ca8ade23c54a9ac5696236f6220fa",
+          "sha256": "4db6b108ea1f2ea0c814a7a7037a1707c78b4e24545a271c1d3b8b70cb60ea79",
+          "bytes": 10815,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/PREREGISTRATION.md"
+        }
+      ],
+      "source_line_ranges": [
+        [
+          1,
+          193
+        ]
+      ],
+      "excerpt_sha256": "6ca07f03d147c0d9b6c6e1de89fdd34ea6bf7f05981f4ecedc5fc22534e0adc4"
+    },
+    {
+      "artifact_path": "artifacts/protocols/ORIGINAL-CASE-SELECTION.md",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/SCREEN.md",
+          "git_blob_sha1": "a21bbe52029d69b19b7292074180bfeca92725be",
+          "sha256": "6c6d7bfd143d9c744c049cfc69df76216a67c16310ca7cc9a216aff7360dc924",
+          "bytes": 3357,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/SCREEN.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/protocols/README.md",
+      "transformation": "reviewer-facing synthesis; no source experiment or result altered",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/SCREEN.md",
+          "git_blob_sha1": "a21bbe52029d69b19b7292074180bfeca92725be",
+          "sha256": "6c6d7bfd143d9c744c049cfc69df76216a67c16310ca7cc9a216aff7360dc924",
+          "bytes": 3357,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/SCREEN.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25524-MATRIX-PREREGISTRATION.md",
+          "git_blob_sha1": "9fac693e33fa115f24c97f77e43a9614b6246a16",
+          "sha256": "65e455a08373ff24d9902a2c37c0009fd380b27c7bd92dbde68966e94e3b562f",
+          "bytes": 2472,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25524-MATRIX-PREREGISTRATION.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-28843-MATRIX-PREREGISTRATION.md",
+          "git_blob_sha1": "bbf5480b502e0443970419d33f4d0e73a4198a08",
+          "sha256": "4de4f0d8ff543aac8b2b211c248b1830d61e87421c084f480a83eba499f8ba3d",
+          "bytes": 2183,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-28843-MATRIX-PREREGISTRATION.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-38483-MATRIX-PREREGISTRATION.md",
+          "git_blob_sha1": "aac82ab22275904ee5ff843910f7f79d98fbf2a7",
+          "sha256": "c0f05e123f710736ff77a9d537258fb2569a551b1b1e2fb8f018f1f5d3ca034a",
+          "bytes": 2266,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-38483-MATRIX-PREREGISTRATION.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/PREREGISTRATION.md",
+          "git_blob_sha1": "6b9436a0307ca8ade23c54a9ac5696236f6220fa",
+          "sha256": "4db6b108ea1f2ea0c814a7a7037a1707c78b4e24545a271c1d3b8b70cb60ea79",
+          "bytes": 10815,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/PREREGISTRATION.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/README.md",
+      "transformation": "reviewer-facing synthesis; no source experiment or result altered",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T7-cross-mechanism-capture/RESULT.md",
+          "git_blob_sha1": "8749a9ce4afdc7af0cff47bf0d9a28463d698f5b",
+          "sha256": "89f3388114b825d590fbcef7c4a2d3354fec504c309add0b7c476bf862d53505",
+          "bytes": 3168,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T7-cross-mechanism-capture/RESULT.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T9-materialization-live-capture/RESULT.md",
+          "git_blob_sha1": "ce3b6bcb0bd5f9ee7387ce5da653edb0674dd4c5",
+          "sha256": "167ffc6c270d00470cc5067990e67e057e32b92e2957193aed28e787ce510028",
+          "bytes": 2222,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T9-materialization-live-capture/RESULT.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T10-generic-restore-trace/RESULT.md",
+          "git_blob_sha1": "a4e9b01bb7c0212c3e833aa21afbd7784e65d0b9",
+          "sha256": "e22724361c15bee7bf96b50cfb8232e30c05c2acd1b04a0877af74867799c984",
+          "bytes": 2088,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T10-generic-restore-trace/RESULT.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T8-configuration-canonicalization/DESIGN.md",
+          "git_blob_sha1": "e3606a8c759c25a1562a528155311ab8b8d766a8",
+          "sha256": "84bd908e2304a2e70ef7fd133ff1e4d3d8a0c2fa20f6b85edc64465cc6688a48",
+          "bytes": 1306,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T8-configuration-canonicalization/DESIGN.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T10-captured.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T10-generic-restore-trace/evidence/g128-live-v1/captured-receipt.json",
+          "git_blob_sha1": "c782209fb7dca9f3bd646ac4fae79104b015abad",
+          "sha256": "003df39e6a22790b46f44d2b9f4bf7387bbd5886644093676279104782b0bfcf",
+          "bytes": 380,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T10-generic-restore-trace/evidence/g128-live-v1/captured-receipt.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T10-events.jsonl",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T10-generic-restore-trace/evidence/g128-live-v1/live-events.jsonl",
+          "git_blob_sha1": "3d3b43e5942b8c6b767ecec03761eb669b32249f",
+          "sha256": "53416d2358f9118f4772d5443608cdc1bd11b1ce8e9cd9c6d54ba7b04d79e8c7",
+          "bytes": 472,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T10-generic-restore-trace/evidence/g128-live-v1/live-events.jsonl"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T10-reference.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-28843-RECEIPT.json",
+          "git_blob_sha1": "b2391c18f6369f4491371aae8e263e8921f8a8ab",
+          "sha256": "758ead4a89496bdfce6265fc486f92ae9dca48177490fc84ad2da4bad5d67c12",
+          "bytes": 380,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-28843-RECEIPT.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T7-captured.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/captured-receipt.json",
+          "git_blob_sha1": "26bba4bf5a41dc1351db0426a34902a80833562f",
+          "sha256": "c5c1364ecf39121bd854f23fb338fd36a5631880ebe464bbd172cff362c153a1",
+          "bytes": 445,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/captured-receipt.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T7-events.jsonl",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/live-events.jsonl",
+          "git_blob_sha1": "bd7297f4ffe0132d21770c8283805588dc2fa7a2",
+          "sha256": "a46414323f9cb2115628feb40eda6fd9c0466464775a64ae7e13af26c7f55077",
+          "bytes": 531,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/live-events.jsonl"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T7-reference.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-38483-RECEIPT.json",
+          "git_blob_sha1": "666c2bbb1fb84578917e9f8a2ebca17724dbc6ed",
+          "sha256": "3c6f6d2dcd660df830dbb1764661a20bf0b86105446cf7951f07d810526a2ec0",
+          "bytes": 442,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-38483-RECEIPT.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T9-captured.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T9-materialization-live-capture/evidence/g128-live-v1/captured-receipt.json",
+          "git_blob_sha1": "d5624a945f3fdaacce1003b4014af6d546291435",
+          "sha256": "d0ee86e7f0ff0ad223bd93863b3bb38c17eb6a399d893c2de5f0d92fcc783754",
+          "bytes": 299,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T9-materialization-live-capture/evidence/g128-live-v1/captured-receipt.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T9-events.jsonl",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T9-materialization-live-capture/evidence/g128-live-v1/live-events.jsonl",
+          "git_blob_sha1": "056bc09ace5c1d2206a39c23a54897cafe15d358",
+          "sha256": "198dbe86573a138a2f2d7dea763c3085a2e95f99210b0d75cea69b898cc3c745",
+          "bytes": 397,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T9-materialization-live-capture/evidence/g128-live-v1/live-events.jsonl"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/T9-reference.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25524-RECEIPT.json",
+          "git_blob_sha1": "d285ebd7e9d00a1fb6a3047d682a766efb99ebf6",
+          "sha256": "c46893c18e96db66a58150f87c79e2fb14763c38f83db2e005e16914dc02a34f",
+          "bytes": 299,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25524-RECEIPT.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/receipts/canonicalization-contract.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T8-configuration-canonicalization/canonicalization-contract.json",
+          "git_blob_sha1": "1713f96de7d3207139743a56fc848d465c8d9133",
+          "sha256": "426cc4ca53374f147ba9b25e5d4291b01d06ffdd160670abe302c4c4da9a1792",
+          "bytes": 1821,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T8-configuration-canonicalization/canonicalization-contract.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/README.md",
+      "transformation": "reviewer-facing synthesis; no source experiment or result altered",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "manuscripts/LifecycleRegimeCI/evidence/t3-summary.json",
+          "git_blob_sha1": "6c06f193f39c5b96d3999fce7312e9d6118a386a",
+          "sha256": "2fa6fff7711676ab2dbe52f672551f08ec733b729c01226b95578704ad8407aa",
+          "bytes": 2129,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/manuscripts/LifecycleRegimeCI/evidence/t3-summary.json"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "manuscripts/LifecycleRegimeCI/evidence/live-capture-aggregate.json",
+          "git_blob_sha1": "1ae836c2319658a816a674fd44a86e548f4ea08f",
+          "sha256": "d79611964689ed8d4129ff79e26f94232c57729a07183ed14488404e01b70220",
+          "bytes": 2186,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/manuscripts/LifecycleRegimeCI/evidence/live-capture-aggregate.json"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/RESULT.md",
+          "git_blob_sha1": "fddd84261af602ca75b271305b3b8198dc8b2671",
+          "sha256": "da7444a3791145217a166c3cb1a7e487d0b41e0a99aefa43e16188043605173f",
+          "bytes": 8065,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/RESULT.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/capture/T10-result.json",
+      "transformation": "JSON projection: remove only top-level host_label; retain all other values; reserialize",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T10-generic-restore-trace/evidence/g128-live-v1/result.json",
+          "git_blob_sha1": "ecc7e43758a4200734bd47c17a5deb64162e6b3a",
+          "sha256": "a61eb80b2acf9e203a78e7c6117ee26ab70269abd597fef53d5b05a07aa61463",
+          "bytes": 1949,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T10-generic-restore-trace/evidence/g128-live-v1/result.json"
+        }
+      ],
+      "removed_json_keys": [
+        "host_label"
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/capture/T7-result.json",
+      "transformation": "JSON projection: remove only top-level host_label; retain all other values; reserialize",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/result.json",
+          "git_blob_sha1": "330f0a8f67a44d97e58eb7652cd4eca9de440c51",
+          "sha256": "ccc5649ea80ba37d50ba78a9c4108236321903759a5b80c8cb1710c953c8798c",
+          "bytes": 1607,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T7-cross-mechanism-capture/evidence/g128-live-v1/result.json"
+        }
+      ],
+      "removed_json_keys": [
+        "host_label"
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/capture/T9-result.json",
+      "transformation": "JSON projection: remove only top-level host_label; retain all other values; reserialize",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T9-materialization-live-capture/evidence/g128-live-v1/result.json",
+          "git_blob_sha1": "2c1ba6e61b1c75487f50403928f33e296f9d7a65",
+          "sha256": "fef177ff31633a5e413ab205507e52722c1401445f2b3009c4af8c382cd017c1",
+          "bytes": 1970,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T9-materialization-live-capture/evidence/g128-live-v1/result.json"
+        }
+      ],
+      "removed_json_keys": [
+        "host_label"
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/fidelity_summary.csv",
+      "transformation": "unchanged existing public compact summary",
+      "sources": [
+        {
+          "repository": "UpbeatH/LifecycleRegimeCI-Artifacts",
+          "commit": "e669b323a956e92908f7cbae18876501f1389a15",
+          "path": "artifacts/results/fidelity_summary.csv",
+          "git_blob_sha1": "386277bf947c6eeee53b891f06b1a2ab3c00f674",
+          "sha256": "14139eb09abf6e6252fad6a21dce94bf114eff239058637a915e33b6061ad354",
+          "bytes": 181,
+          "url": "https://github.com/UpbeatH/LifecycleRegimeCI-Artifacts/blob/e669b323a956e92908f7cbae18876501f1389a15/artifacts/results/fidelity_summary.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/later-restore/README.md",
+      "transformation": "reviewer-facing synthesis; no source experiment or result altered",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/RESULT.md",
+          "git_blob_sha1": "fddd84261af602ca75b271305b3b8198dc8b2671",
+          "sha256": "da7444a3791145217a166c3cb1a7e487d0b41e0a99aefa43e16188043605173f",
+          "bytes": 8065,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/RESULT.md"
+        },
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines/RESULT.md",
+          "git_blob_sha1": "4cfbcf507b0f4b00ca7171ce3627e71e07b6ab49",
+          "sha256": "ed1d37bdfb12403e30024df06b0bf2884a4530fd7fdfd61b76d995c3bde01a2a",
+          "bytes": 5478,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines/RESULT.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/later-restore/replicated-null/decision.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g127-r2/decision.json",
+          "git_blob_sha1": "19b3de1efbd2add028c876d80aa754640d98d0b8",
+          "sha256": "1b6962e6fcc917b5dc94cc0ef9a321f1230f193cd41f7bd650869ce261497374",
+          "bytes": 5054,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g127-r2/decision.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/later-restore/replicated-null/flink-28843-anchor-baselines.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g127-r2/flink-28843-anchor-baselines.csv",
+          "git_blob_sha1": "92820ed7e4c5f996d8aa20796cba1486b6523902",
+          "sha256": "8befd157073910e3ea44d7729580c4f078c8aa2e32c4cc354c91cdf522ebee4e",
+          "bytes": 3737,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g127-r2/flink-28843-anchor-baselines.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/later-restore/replication-technical-invalid/decision.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g127-r1/decision.json",
+          "git_blob_sha1": "95b0d40518de9f54d6cf348590fef9594da5d9bf",
+          "sha256": "34c15c520ae579ffdadf43f0b0854fc69a0f372cb6e2e9ea54297b1267c3c3cf",
+          "bytes": 5047,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g127-r1/decision.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/later-restore/replication-technical-invalid/flink-28843-anchor-baselines.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g127-r1/flink-28843-anchor-baselines.csv",
+          "git_blob_sha1": "a7732a5743913585f9cadba4a7f6d87e05d92cdc",
+          "sha256": "cfe82b57f090ddc0395a95b7bc657f4b8e20f1bcb013973711ecd915d7ef6837",
+          "bytes": 3737,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g127-r1/flink-28843-anchor-baselines.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/later-restore/stabilized-null/decision.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g128-v2/decision.json",
+          "git_blob_sha1": "dbd8976b7d97cd3f66cfb98ff67266623ce55cc1",
+          "sha256": "c68c515cece5d7e34d7123f7d3d04081b28f2d8979a0a519edbe13f821963455",
+          "bytes": 5052,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g128-v2/decision.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/later-restore/stabilized-null/flink-28843-anchor-baselines.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g128-v2/flink-28843-anchor-baselines.csv",
+          "git_blob_sha1": "e613ad277afdf79a9b766f4a663200fa6c6e26b7",
+          "sha256": "50efe3662cddde0d9c2f03c8fd6c469a4917f09d7c10e70ddbf2f0886e37d0cf",
+          "bytes": 3621,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-L2-anchor-baselines-v2/evidence/g128-v2/flink-28843-anchor-baselines.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/lifecycle_relationships.csv",
+      "transformation": "unchanged existing public compact summary",
+      "sources": [
+        {
+          "repository": "UpbeatH/LifecycleRegimeCI-Artifacts",
+          "commit": "e669b323a956e92908f7cbae18876501f1389a15",
+          "path": "artifacts/results/lifecycle_relationships.csv",
+          "git_blob_sha1": "ace84c410f2ee2951228e3f2324ea1f0508692e1",
+          "sha256": "f38f46c62fa1a916e338d590a1ac6853dc1036fd5eb0b8159b9c679f898c6395",
+          "bytes": 241,
+          "url": "https://github.com/UpbeatH/LifecycleRegimeCI-Artifacts/blob/e669b323a956e92908f7cbae18876501f1389a15/artifacts/results/lifecycle_relationships.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/live-capture-aggregate.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "manuscripts/LifecycleRegimeCI/evidence/live-capture-aggregate.json",
+          "git_blob_sha1": "1ae836c2319658a816a674fd44a86e548f4ea08f",
+          "sha256": "d79611964689ed8d4129ff79e26f94232c57729a07183ed14488404e01b70220",
+          "bytes": 2186,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/manuscripts/LifecycleRegimeCI/evidence/live-capture-aggregate.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/live-capture-summary.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "manuscripts/LifecycleRegimeCI/evidence/live-capture-summary.csv",
+          "git_blob_sha1": "9e27b81b6952c05636343c641bda8a62a850057d",
+          "sha256": "00880cfabc2a6b16818e6240fdf6af8c0ec0639c5f915673b61db287cf5a3526",
+          "bytes": 1016,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/manuscripts/LifecycleRegimeCI/evidence/live-capture-summary.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/FLINK-25429-RESULT.md",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25429-RESULT.md",
+          "git_blob_sha1": "d0f962901423c50538fa93648f52331c8ee199d8",
+          "sha256": "78752900485b7980bad7a0f77d2f3d87e8b675d3bd48ada72444fd9ffc5366f9",
+          "bytes": 1710,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/FLINK-25429-RESULT.md"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/flink-25429-decision.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25429-decision.json",
+          "git_blob_sha1": "d7be14568c32a2f11c1393ae1089620d7bb4c91d",
+          "sha256": "2d8846ffb0128b9aaae5954057d485dc173cd0eeba77563c88f0e72e89f793b8",
+          "bytes": 258,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25429-decision.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/flink-25429-runs.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25429-runs.csv",
+          "git_blob_sha1": "d428200fff341bf2f5a5c4b2c01472c8fed03e55",
+          "sha256": "0414ce377a67c0bd8f1d396b4bfcd4b0208c99c26d89057740c37cb929ea11e6",
+          "bytes": 1561,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25429-runs.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/flink-25524-matrix-decision.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25524-matrix-decision.json",
+          "git_blob_sha1": "3f2d297ff335652c704bae9bbdb765ee4de71638",
+          "sha256": "f0bf84d53c917be1b028250db11f864d5a5ff2956d9c6b11bcaf1283d3229d49",
+          "bytes": 601,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25524-matrix-decision.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/flink-25524-matrix.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25524-matrix.csv",
+          "git_blob_sha1": "04a7e2be70a02a6640c12e717c7549e3192d7e4c",
+          "sha256": "ad37e19ea613115baed490d82ce5083f73ccf4513373c15cae6ee4df4d907da7",
+          "bytes": 1952,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-25524-matrix.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/flink-28843-matrix-decision.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-28843-matrix-decision.json",
+          "git_blob_sha1": "1445fdf762d128b54160cac9a3e1fd050f018911",
+          "sha256": "0c01e903e6d08dbcfd520d3547dc2a80522483d92324f25f91075e8f5f687b96",
+          "bytes": 294,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-28843-matrix-decision.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/flink-28843-matrix.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-28843-matrix.csv",
+          "git_blob_sha1": "31ad647cd4406c59285da925f031d302855196e0",
+          "sha256": "68efbe5adcbef1696d1f4f6937c30a0a100c5399bcd7b18081f1a3ac973613a6",
+          "bytes": 2009,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-28843-matrix.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/flink-38483-matrix-decision.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-38483-matrix-decision.json",
+          "git_blob_sha1": "fb387d6427cba7140166f8e6fcc4406ef1ae05bc",
+          "sha256": "86da6573a859db44c574f4af769e3bb62332dbf89cd9bddef0b02798a553dfe1",
+          "bytes": 294,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-38483-matrix-decision.json"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/original/flink-38483-matrix.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-38483-matrix.csv",
+          "git_blob_sha1": "a6e161be2c5cdad683d24280e5916f45f1b579cf",
+          "sha256": "4e276f5cbae91ef496aa8a02e6a169783023c69db20d39c4be421ea81fb389d4",
+          "bytes": 2057,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/experiments/DAT-LRCI-T3-heldout-incidents/evidence/flink-38483-matrix.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/reproduction_matrix.csv",
+      "transformation": "unchanged existing public compact summary",
+      "sources": [
+        {
+          "repository": "UpbeatH/LifecycleRegimeCI-Artifacts",
+          "commit": "e669b323a956e92908f7cbae18876501f1389a15",
+          "path": "artifacts/results/reproduction_matrix.csv",
+          "git_blob_sha1": "c195639809b8def9bc3c3555fa5d2f978e3ec8df",
+          "sha256": "7a379424c5234ac339915fe0d9839067f37a042a1bd2513f9cc96216cf2e9965",
+          "bytes": 154,
+          "url": "https://github.com/UpbeatH/LifecycleRegimeCI-Artifacts/blob/e669b323a956e92908f7cbae18876501f1389a15/artifacts/results/reproduction_matrix.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/t3-policy-detection.csv",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "manuscripts/LifecycleRegimeCI/evidence/t3-policy-detection.csv",
+          "git_blob_sha1": "640e5a1a1794330ad13ebb6bade40b171479622d",
+          "sha256": "1043709c599f25383bcc1e1132fad2b3b1b550cdd4705e121de2270d7b2c0b4a",
+          "bytes": 517,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/manuscripts/LifecycleRegimeCI/evidence/t3-policy-detection.csv"
+        }
+      ]
+    },
+    {
+      "artifact_path": "artifacts/results/t3-summary.json",
+      "transformation": "byte-for-byte copy of selected compact source",
+      "sources": [
+        {
+          "repository": "UpbeatH/DataAnalyticsTune",
+          "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb",
+          "path": "manuscripts/LifecycleRegimeCI/evidence/t3-summary.json",
+          "git_blob_sha1": "6c06f193f39c5b96d3999fce7312e9d6118a386a",
+          "sha256": "2fa6fff7711676ab2dbe52f672551f08ec733b729c01226b95578704ad8407aa",
+          "bytes": 2129,
+          "url": "https://github.com/UpbeatH/DataAnalyticsTune/blob/5a3971445307f117285128e5d075ce2ecc7a95eb/manuscripts/LifecycleRegimeCI/evidence/t3-summary.json"
+        }
+      ]
+    }
+  ]
+}

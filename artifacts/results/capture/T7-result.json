@@ -1,0 +1,50 @@
+{
+  "canonical_receipt_fidelity": false,
+  "captured_receipt_sha256": "c5c1364ecf39121bd854f23fb338fd36a5631880ebe464bbd172cff362c153a1",
+  "claim_boundary": "One child unaligned-checkpoint rescale lifecycle and one mixed-exchange DAG; not production or cross-engine evidence.",
+  "decision": "T7_CROSS_MECHANISM_CAPTURE_NO_GO",
+  "exact_receipt_fidelity": false,
+  "expected_receipt_sha256": "3c6f6d2dcd660df830dbb1764661a20bf0b86105446cf7951f07d810526a2ec0",
+  "java_live_object_timing": {
+    "acquisition_ns": {
+      "maximum": 38273,
+      "median": 35177,
+      "minimum": 34225,
+      "p05": 34368,
+      "p95": 36985
+    },
+    "batches": 31,
+    "iterations_per_batch": 20000,
+    "schema": "dataanalyticstune.lrci.t7-java.v1",
+    "serialization_ns": {
+      "maximum": 1614,
+      "median": 767,
+      "minimum": 764,
+      "p05": 765,
+      "p95": 1083
+    }
+  },
+  "live_event_bytes": 531,
+  "live_event_count": 4,
+  "live_event_sha256": "a46414323f9cb2115628feb40eda6fd9c0466464775a64ae7e13af26c7f55077",
+  "platform": "Linux-5.8.0-63-generic-x86_64-with-glibc2.29",
+  "python": "3.8.10",
+  "python_parse_and_fold": {
+    "batches": 31,
+    "iterations_per_batch": 20000,
+    "maximum_ns": 13038.13945,
+    "median_ns": 12407.20155,
+    "minimum_ns": 12340.30965,
+    "p05_ns": 12342.13125,
+    "p95_ns": 12485.87825
+  },
+  "schema": "dataanalyticstune.lrci.t7-cross-mechanism-capture.v1",
+  "source_revision": "cc55c56ace4401c2a4023153d9e17001ab5fcc85",
+  "test_report": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 1,
+    "valid": true
+  }
+}

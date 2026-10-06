@@ -1,0 +1,4 @@
+{"effective_configuration":{"checkpointing":"enabled","state_backend":"changelog"},"seq":1,"type":"effective-config"}
+{"lineage_predecessor":"outer-checkpoint-0","persisted_state_identity":"nested-materialization-200","seq":2,"type":"state-lineage"}
+{"realized_regime":"post-materialization","seq":3,"type":"realized-regime"}
+{"seq":4,"target_phase":"checkpoint-completion","type":"target-phase"}

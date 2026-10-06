@@ -1,0 +1,11 @@
+{
+  "effective_configuration": {
+    "restore_mode": "claim",
+    "state_backend": "rocksdb-incremental-to-changelog",
+    "state_storage_fs_memory_threshold": "20b"
+  },
+  "lineage_predecessor": "native-rocksdb-checkpoint",
+  "persisted_state_identity": "incremental-checkpoint-base-path-1",
+  "realized_regime": "claim-mode-backend-switch",
+  "target_phase": "second-restore"
+}

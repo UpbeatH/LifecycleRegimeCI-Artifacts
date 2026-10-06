@@ -1,0 +1,13 @@
+run_id,role,revision,executed_policy,scored_policies,rep,exit_code,marker,elapsed_ms
+parent-history-aware-r1,parent,11f74d875a8fa0f4a7e4987026c10a3748820ab1,history-aware,configuration-only;history-aware;incident-oracle,1,1,0,2120
+child-fresh-only-r1,child,804eb8dda556a2bea35c69a2662f13d1dafb9255,fresh-only,fresh-only,1,0,1,1461
+child-history-aware-r1,child,804eb8dda556a2bea35c69a2662f13d1dafb9255,history-aware,configuration-only;history-aware;incident-oracle,1,0,1,2038
+parent-fresh-only-r1,parent,11f74d875a8fa0f4a7e4987026c10a3748820ab1,fresh-only,fresh-only,1,0,1,1243
+parent-fresh-only-r2,parent,11f74d875a8fa0f4a7e4987026c10a3748820ab1,fresh-only,fresh-only,2,0,1,1241
+child-history-aware-r2,child,804eb8dda556a2bea35c69a2662f13d1dafb9255,history-aware,configuration-only;history-aware;incident-oracle,2,0,1,1774
+child-fresh-only-r2,child,804eb8dda556a2bea35c69a2662f13d1dafb9255,fresh-only,fresh-only,2,0,1,1705
+parent-history-aware-r2,parent,11f74d875a8fa0f4a7e4987026c10a3748820ab1,history-aware,configuration-only;history-aware;incident-oracle,2,1,0,1428
+child-history-aware-r3,child,804eb8dda556a2bea35c69a2662f13d1dafb9255,history-aware,configuration-only;history-aware;incident-oracle,3,0,1,1452
+parent-fresh-only-r3,parent,11f74d875a8fa0f4a7e4987026c10a3748820ab1,fresh-only,fresh-only,3,0,1,1639
+parent-history-aware-r3,parent,11f74d875a8fa0f4a7e4987026c10a3748820ab1,history-aware,configuration-only;history-aware;incident-oracle,3,1,0,1682
+child-fresh-only-r3,child,804eb8dda556a2bea35c69a2662f13d1dafb9255,fresh-only,fresh-only,3,0,1,1176

@@ -1,0 +1,35 @@
+{
+  "schema": "lifecycle-regime-ci.compact-revisions.v1",
+  "source_snapshot": {
+    "repository": "UpbeatH/DataAnalyticsTune",
+    "commit": "5a3971445307f117285128e5d075ce2ecc7a95eb"
+  },
+  "scientific_manuscript_baseline": "03e715348b5dbe3a0f3656c5bfb95d0f7735cf51",
+  "cases": [
+    {
+      "case": "FLINK-25429",
+      "engine_repository": "apache/flink",
+      "parent": "11f74d875a8fa0f4a7e4987026c10a3748820ab1",
+      "child": "804eb8dda556a2bea35c69a2662f13d1dafb9255"
+    },
+    {
+      "case": "FLINK-25524",
+      "engine_repository": "apache/flink",
+      "parent": "34de3989a613cf7124f9e301cb8284080f4df4ac",
+      "child": "d0927dd41e2f0441e4e5825ff423dd0e903713f3"
+    },
+    {
+      "case": "FLINK-28843",
+      "engine_repository": "apache/flink",
+      "parent": "0e6e4198ad84227c20e2c61c2dd8b0616324aa31",
+      "child": "7f708d0ba42f727b3f8c3d77cef2108206cad2de"
+    },
+    {
+      "case": "FLINK-38483",
+      "engine_repository": "apache/flink",
+      "parent": "17c1b22d53cadca05416fa9b7acf4ac6f279df43",
+      "child": "cc55c56ace4401c2a4023153d9e17001ab5fcc85"
+    }
+  ],
+  "later_restore_stability_amendment": "a72a5ca8a393fee58c6a5e06584f9197ccb09ef0"
+}

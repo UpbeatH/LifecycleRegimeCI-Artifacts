@@ -1,0 +1,90 @@
+{
+  "schema": "lifecycle-regime-ci.compact-environments.v1",
+  "inspection_environment": {
+    "python": "3.8 or newer",
+    "dependencies": "Python standard library only",
+    "network_required": false,
+    "Flink_required": false
+  },
+  "historical_original_matrices": [
+    {
+      "case": "FLINK-25429",
+      "os_family": "Windows",
+      "test_level": "targeted uploader component",
+      "toolchain": {
+        "java": null,
+        "maven": null
+      },
+      "toolchain_note": "Source-bound build requirements retained in original records; null means this bounded manifest does not establish an exact executed version."
+    },
+    {
+      "case": "FLINK-25524",
+      "os_family": "Linux",
+      "test_level": "targeted changelog component",
+      "toolchain": {
+        "java": null,
+        "maven": null
+      },
+      "toolchain_note": "Source-bound build requirements retained in original records; null means this bounded manifest does not establish an exact executed version."
+    },
+    {
+      "case": "FLINK-28843",
+      "os_family": "Linux",
+      "test_level": "MiniCluster integration",
+      "toolchain": {
+        "java": null,
+        "maven": null
+      },
+      "toolchain_note": "Source-bound build requirements retained in original records; null means this bounded manifest does not establish an exact executed version."
+    },
+    {
+      "case": "FLINK-38483",
+      "os_family": "Linux",
+      "test_level": "MiniCluster integration",
+      "toolchain": {
+        "java": "OpenJDK 17",
+        "maven": "3.8.6",
+        "official_dependency_flags": [
+          "-Dflink.markBundledAsOptional=false",
+          "-Dfast"
+        ]
+      },
+      "toolchain_note": "Source-bound build requirements retained in original records; null means this bounded manifest does not establish an exact executed version."
+    }
+  ],
+  "historical_selected_capture": [
+    {
+      "gate": "T7",
+      "os_family": "Linux",
+      "java": "OpenJDK 17",
+      "maven": "3.8.6",
+      "python": "3.8.10",
+      "dat_execution_commit": "c1d7b8d0972e4378a3e336dbadd1d200575847fd"
+    },
+    {
+      "gate": "T9",
+      "os_family": "Linux",
+      "java": "OpenJDK 11.0.27",
+      "maven": "3.6.3",
+      "python": "3.8.10",
+      "dat_execution_commit": "0baa767eac6ea935c925b11e6dbdcd43b2c33f5a"
+    },
+    {
+      "gate": "T10",
+      "os_family": "Linux",
+      "java": "OpenJDK 11.0.27",
+      "maven": "3.6.3",
+      "python": "3.8.10",
+      "dat_execution_commit": "59bb641bbd38143ae533ea39dd9fea0e236db6e2"
+    }
+  ],
+  "historical_later_restore": {
+    "os_family": "Linux",
+    "java": "OpenJDK 11.0.27",
+    "maven": "3.6.3",
+    "stabilized_dat_execution_commit": "ae6b10d8a6b49c527808f283e0b3c8098e9033a3",
+    "replication_dat_execution_commit": "27bf00c1edd59be3bbb14af76799e1746f3ad9ff",
+    "replication_on_distinct_host": true
+  },
+  "boundary": "Historical metadata only; not an executable environment, toolchain distribution, verification of present native availability, or cross-host performance comparison."
+}

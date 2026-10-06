@@ -1,0 +1,4 @@
+{"effective_configuration":{"aligned_checkpoint_timeout":"0s","network_memory_segment_size":"1kb","restart_strategy":"disable","unaligned_checkpoints":true},"seq":1,"type":"effective-config"}
+{"lineage_predecessor":"mixed-nonempty-and-empty-hash-exchanges","persisted_state_identity":"externalized-unaligned-checkpoint-with-inflight-buffers","seq":2,"type":"state-lineage"}
+{"realized_regime":"unaligned-checkpoint-rescale","seq":3,"type":"realized-regime"}
+{"seq":4,"target_phase":"restore-from-checkpoint","type":"target-phase"}

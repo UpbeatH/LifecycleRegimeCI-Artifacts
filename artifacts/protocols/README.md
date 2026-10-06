@@ -1,19 +1,9 @@
-# Protocol Summaries
+# Frozen construction and oracle protocols
 
-This directory contains compact protocol summaries for reviewer inspection.
+Read `ORIGINAL-CASE-SELECTION.md` for the original ordered screen and validity rules; read each matrix preregistration for exact constructions, repetitions, order, and decision boundaries. The three copied matrix preregistrations are byte-for-byte frozen documents. `FLINK-25429-CONTROL.md` is a source-grounded inspection summary. `LATER-RESTORE-PROTOCOL.md` is a labeled bounded excerpt of the separate later harness amendment.
 
-The protocol summaries identify:
+This is a documentary protocol collection, not an execution authorization or a complete native reproduction harness. Historical future-tense gates in unchanged source copies retain their original chronology; the completed results are in `../results/`.
 
-- case identity;
-- construction role;
-- lifecycle relationship under study;
-- functional oracle boundary.
+The independent denominator is four original issue/fix constructions. Three repetitions check execution consistency. Manual-reference and history share physical rows, and configuration also shares those rows in the uploader control. Logical aliases do not add independent evidence. The later restore null is a separate condition of FLINK-28843, not a new case.
 
-They are not substitutes for the original execution environment and do not claim automatic reproduction from the artifact package alone.
-
-## Included cases
-
-- FLINK-25429: configuration-sufficient uploader control.
-- FLINK-25524: notification lineage and materialization/checkpoint identity relation.
-- FLINK-28843: checkpoint/restore lineage and restore-chain position.
-- FLINK-38483: topology transition over checkpoint state.
+For notification, process success is insufficient: both probes pass and the oracle compares forwarded 0 versus 200. For restore and topology, only the prescribed target exception plus corresponding child success counts. Missing target reports, unrelated build failures and timeout sentinels are technical-invalid, not valid non-detections.

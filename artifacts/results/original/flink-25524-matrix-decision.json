@@ -1,0 +1,33 @@
+{
+  "child_expectations_pass": true,
+  "consistent": true,
+  "decision": "T3_FLINK_25524_HISTORY_ADVANTAGE",
+  "incident_detection": {
+    "configuration-only": false,
+    "fresh-only": false,
+    "history-aware": true,
+    "incident-oracle": true
+  },
+  "logical_cells": 24,
+  "observed_values": {
+    "configuration-only/child": [
+      0
+    ],
+    "configuration-only/parent": [
+      0
+    ],
+    "fresh-only/child": [
+      0
+    ],
+    "fresh-only/parent": [
+      0
+    ],
+    "history-aware/child": [
+      200
+    ],
+    "history-aware/parent": [
+      0
+    ]
+  },
+  "physical_cells": 18
+}

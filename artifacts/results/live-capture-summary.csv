@@ -1,0 +1,5 @@
+gate,incident,mechanism,source_revision,generic_transition_trace,caller_supplied_lifecycle_labels,test_elapsed_s,event_bytes,raw_value_fidelity,normalized_fidelity,acquisition_median_us,serialization_median_us,parse_fold_median_us,canonicalization_median_us,decision
+T6,FLINK-28843,claim restore backend switch,7f708d0ba42f727b3f8c3d77cef2108206cad2de,false,lineage generation; restore ordinal,11.461,472,true,true,0.227,1.179,11.865,,T6_LIVE_CAPTURE_GO_EXACT_FIDELITY
+T7,FLINK-38483,unaligned checkpoint rescale,cc55c56ace4401c2a4023153d9e17001ab5fcc85,true,none,28.00,531,false,true,35.177,0.767,12.407,,T7_RAW_FIDELITY_NO_GO_SOURCE_ALIAS_NORMALIZED_EQUIVALENCE
+T9,FLINK-25524,materialization completion lineage,d0927dd41e2f0441e4e5825ff423dd0e903713f3,true,none,1.164,397,true,true,0.075,0.431,11.635,6.856,T9_MATERIALIZATION_LIVE_CAPTURE_GO
+T10,FLINK-28843,claim restore backend switch,7f708d0ba42f727b3f8c3d77cef2108206cad2de,true,none,10.183,472,true,true,0.239,0.638,12.952,8.034,T10_GENERIC_RESTORE_TRACE_GO

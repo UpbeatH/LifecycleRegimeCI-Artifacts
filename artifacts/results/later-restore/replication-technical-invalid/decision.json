@@ -1,0 +1,199 @@
+{
+  "claim_boundary": "development correctness-oracle and replay-cost evidence only",
+  "consistent_and_valid": false,
+  "cost_scope": "monotonic Maven-command time; source qualification, anchor preparation, target execution, paired replay, and common-build-inclusive cold totals reported separately",
+  "costs": {
+    "early-native-anchor": {
+      "child": {
+        "median_total_seconds": 62.559821135,
+        "n": 3,
+        "prepare_seconds": [
+          31.613864992,
+          30.383199219,
+          31.275446057
+        ],
+        "target_seconds": [
+          32.27336051,
+          31.980341063,
+          31.284375078
+        ],
+        "total_seconds": [
+          63.887225502,
+          62.363540282,
+          62.559821135
+        ]
+      },
+      "paired": {
+        "cold_seconds_by_block_including_shared_build": [
+          871.363319756,
+          868.079288331,
+          866.373745041
+        ],
+        "median_replay_seconds": 126.080501522,
+        "replay_seconds_by_block": [
+          129.364532947,
+          126.080501522,
+          124.374958232
+        ]
+      },
+      "parent": {
+        "median_total_seconds": 63.71696124,
+        "n": 3,
+        "prepare_seconds": [
+          33.267017171,
+          31.836469145,
+          30.545741183
+        ],
+        "target_seconds": [
+          32.210290274,
+          31.880492095,
+          31.269395914
+        ],
+        "total_seconds": [
+          65.477307445,
+          63.71696124,
+          61.815137097
+        ]
+      }
+    },
+    "full-history-native": {
+      "child": {
+        "median_total_seconds": 32.75207065,
+        "n": 3,
+        "prepare_seconds": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "target_seconds": [
+          65.898867868,
+          31.409070714,
+          32.75207065
+        ],
+        "total_seconds": [
+          65.898867868,
+          31.409070714,
+          32.75207065
+        ]
+      },
+      "paired": {
+        "cold_seconds_by_block_including_shared_build": [
+          841.049244033,
+          806.008761665,
+          806.211476509
+        ],
+        "median_replay_seconds": 64.2126897,
+        "replay_seconds_by_block": [
+          99.050457224,
+          64.009974856,
+          64.2126897
+        ]
+      },
+      "parent": {
+        "median_total_seconds": 32.600904142,
+        "n": 3,
+        "prepare_seconds": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "target_seconds": [
+          33.151589356,
+          32.600904142,
+          31.46061905
+        ],
+        "total_seconds": [
+          33.151589356,
+          32.600904142,
+          31.46061905
+        ]
+      }
+    },
+    "latest-native-anchor": {
+      "child": {
+        "median_total_seconds": 62.836589918,
+        "n": 3,
+        "prepare_seconds": [
+          56.951351766,
+          31.13785136,
+          31.960484699
+        ],
+        "target_seconds": [
+          33.022019054,
+          30.287737249,
+          30.876105219
+        ],
+        "total_seconds": [
+          89.97337082,
+          61.425588609,
+          62.836589918
+        ]
+      },
+      "paired": {
+        "cold_seconds_by_block_including_shared_build": [
+          895.270071467,
+          866.927698418,
+          866.634745454
+        ],
+        "median_replay_seconds": 124.928911609,
+        "replay_seconds_by_block": [
+          153.271284658,
+          124.928911609,
+          124.635958645
+        ]
+      },
+      "parent": {
+        "median_total_seconds": 63.297913838,
+        "n": 3,
+        "prepare_seconds": [
+          31.753222267,
+          32.467076294,
+          32.01508906
+        ],
+        "target_seconds": [
+          31.544691571,
+          31.036246706,
+          29.784279667
+        ],
+        "total_seconds": [
+          63.297913838,
+          63.503323,
+          61.799368727
+        ]
+      }
+    }
+  },
+  "decision": "L2_TECHNICAL_INVALID",
+  "incident_detection": {
+    "early-native-anchor": false,
+    "full-history-native": false,
+    "latest-native-anchor": false
+  },
+  "maven_session_total_seconds_including_shared_build": 1751.928056202,
+  "physical_cells": 18,
+  "receipt_scope": "three backend-specific target-phase receipts per cell; exact one-target-exception parent oracle",
+  "schema": "dat-lrci-flink-28843-anchor-baselines-result-v4",
+  "source_qualification": {
+    "allocation": "one common parent-plus-child setup cost, added identically to every paired-policy cold total; never assigned to the first matrix cell",
+    "rows": [
+      {
+        "elapsed_ns": 493330888040,
+        "elapsed_seconds": 493.33088804,
+        "revision": "0e6e4198ad84227c20e2c61c2dd8b0616324aa31",
+        "role": "parent",
+        "sequence": 1,
+        "valid": true
+      },
+      {
+        "elapsed_ns": 248667898769,
+        "elapsed_seconds": 248.667898769,
+        "revision": "7f708d0ba42f727b3f8c3d77cef2108206cad2de",
+        "role": "child",
+        "sequence": 2,
+        "valid": true
+      }
+    ],
+    "shared_build_seconds": 741.998786809,
+    "valid": true
+  }
+}
