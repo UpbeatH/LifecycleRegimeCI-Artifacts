@@ -1,0 +1,4 @@
+case,category,relationship
+FLINK-25524,notification_lineage,materialization_checkpoint_association
+FLINK-28843,checkpoint_restore_lineage,restore_chain_generation_order
+FLINK-38483,topology_transition_context,source_target_topology_relation
